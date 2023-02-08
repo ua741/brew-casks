@@ -1,0 +1,9 @@
+cask 'ente-photos' do
+  version '1.6.20'
+  sha256 'e7034105003cb1cab80e8c27bbd986082f6c3bf9c5b81f448d2665c6d67b665d'
+  url "https://github.com/ente-io/photos-desktop/releases/download/v#{version}/ente-#{version}.dmg"
+  name 'ente Photos'
+  homepage 'https://ente.io/'
+
+  app 'ente.app'
+end
